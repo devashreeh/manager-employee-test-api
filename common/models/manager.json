@@ -1,0 +1,141 @@
+{
+    "name": "manager",
+    "base": "PersistedModel",
+    "idInjection": false,
+    "options": {
+      "validateUpsert": true
+    },
+    "mysql": {
+      "schema": "test_assignment",
+      "table": "manager"
+    },
+    "properties": {
+      "managerId": {
+        "type": "number",
+        "generated": true,
+        "required": false,
+        "length": null,
+        "precision": 10,
+        "scale": 0,
+        "mysql": {
+          "columnName": "id",
+          "dataType": "int",
+          "dataLength": null,
+          "dataPrecision": 10,
+          "dataScale": 0,
+          "nullable": "N"
+        }
+      },
+      "email": {
+        "type": "string",
+        "generated": true,
+        "required": false,
+        "length": null,
+        "precision": 10,
+        "scale": 0,
+        "mysql": {
+          "columnName": "email",
+          "dataType": "varchar",
+          "dataLength": 250,
+          "dataPrecision": 10,
+          "dataScale": 0,
+          "nullable": "N"
+        }
+      },
+      "firstName": {
+        "type": "string",
+        "required": false,
+        "length": null,
+        "precision": 10,
+        "scale": 0,
+        "mysql": {
+          "columnName": "first_name",
+          "dataType": "varchar",
+          "dataLength": 250,
+          "dataPrecision": 10,
+          "dataScale": 0,
+          "nullable": "N"
+        }
+      },
+      "lastName": {
+        "type": "string",
+        "required": false,
+        "length": null,
+        "precision": 10,
+        "scale": 0,
+        "mysql": {
+          "columnName": "last_name",
+          "dataType": "varchar",
+          "dataLength": 250,
+          "dataPrecision": 10,
+          "dataScale": 0,
+          "nullable": "N"
+        }
+      },
+      "password": {
+        "type": "string",
+        "required": false,
+        "length": null,
+        "precision": 10,
+        "scale": 0,
+        "mysql": {
+          "columnName": "password",
+          "dataType": "varchar",
+          "dataLength": 250,
+          "dataPrecision": 10,
+          "dataScale": 0,
+          "nullable": "N"
+        }
+      },
+      "dateOfBirth": {
+        "type": "date",
+        "required": false,
+        "length": null,
+        "precision": 10,
+        "scale": 0,
+        "mysql": {
+          "columnName": "date_of_birth",
+          "dataType": "date",
+          "dataLength": null,
+          "dataPrecision": 10,
+          "dataScale": 0,
+          "nullable": "N"
+        }
+      },
+      "address": {
+        "type": "string",
+        "required": false,
+        "length": null,
+        "precision": 10,
+        "scale": 0,
+        "mysql": {
+          "columnName": "address",
+          "dataType": "text",
+          "dataLength": null,
+          "dataPrecision": 10,
+          "dataScale": 0,
+          "nullable": "N"
+        }
+      },
+      "company": {
+        "type": "string",
+        "required": false,
+        "length": null,
+        "precision": 10,
+        "scale": 0,
+        "mysql": {
+          "columnName": "company",
+          "dataType": "varchar",
+          "dataLength": 250,
+          "dataPrecision": 10,
+          "dataScale": 0,
+          "nullable": "N"
+        }
+      }
+    },
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": {}
+  }
+  

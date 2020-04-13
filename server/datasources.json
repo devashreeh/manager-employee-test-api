@@ -1,0 +1,19 @@
+{
+    "mysqldb": {
+      "host": "localhost",
+      "port": 3306,
+      "url": "",
+      "database": "test_assignment",
+      "password": "root",
+      "name": "mysqldb",
+      "user": "root",
+      "connector": "mysql"
+    },
+    "local-storage": {
+      "name": "local-storage",
+      "connector": "loopback-component-storage",
+      "provider": "filesystem",
+      "root": "./"
+    }
+  }
+  
